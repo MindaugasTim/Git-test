@@ -1,5 +1,10 @@
+import java.util.Date;
+
 public class HelloWorld {
 	public static void main(String[] args) {
 		System.out.println("HELLO UGLY WORLD!\nThe World is not ugly!");
+		
+		Date date = new Date();
+		System.out.nextLn(date.toString());
 	}
 }
